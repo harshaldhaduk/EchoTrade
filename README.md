@@ -1,73 +1,52 @@
-# Welcome to your Lovable project
 
-## Project info
+# EchoTrade
 
-**URL**: https://lovable.dev/projects/88edf5a1-1988-4b09-af95-422a8e7c873e
+EchoTrade is an AI-powered web application that scrapes and delivers the latest news articles relevant to stocks and financial markets. Built with Vite, React, and TypeScript, it provides a fast, modern, and user-friendly interface for traders and investors to stay informed.
 
-## How can I edit this code?
+## Features
 
-There are several ways of editing your application.
+- 🔍 **AI Web Scraper**: Automatically fetches and analyzes news articles related to stocks.
+- 📰 **Relevant News Feed**: Presents curated news based on stock tickers and market trends.
+- ⚡ **Fast & Modern UI**: Built with Vite, React, and Tailwind CSS for a responsive experience.
+- 🔎 **Ticker Search**: Quickly find news for specific stocks.
+- ☁️ **Supabase Integration**: Secure backend for data storage and user management.
 
-**Use Lovable**
+## Getting Started
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/88edf5a1-1988-4b09-af95-422a8e7c873e) and start prompting.
+### Prerequisites
+- Node.js (v16+ recommended)
+- npm or bun
 
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
+### Installation
 ```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+npm install
 ```
 
-**Edit a file directly in GitHub**
+### Development
+```sh
+npm run dev
+```
+Open [http://localhost:5173](http://localhost:5173) in your browser.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+### Build for Production
+```sh
+npm run build
+```
 
-**Use GitHub Codespaces**
+## Deployment
+You can deploy this app easily to platforms like Vercel. The default build output is in the `dist` folder.
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## Project Structure
+- `src/` — Main source code
+	- `components/` — UI components
+	- `hooks/` — Custom React hooks
+	- `integrations/supabase/` — Supabase client and types
+	- `pages/` — App pages
+	- `lib/` — Utility functions
+- `public/` — Static assets
 
-## What technologies are used for this project?
+## Contributing
+Pull requests are welcome! For major changes, please open an issue first to discuss what you would like to change.
 
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/88edf5a1-1988-4b09-af95-422a8e7c873e) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+## License
+[MIT](LICENSE)
