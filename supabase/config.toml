@@ -1,0 +1,4 @@
+project_id = "bkwgxlncncwrpfahtrtt"
+
+[functions.fetch-news]
+verify_jwt = false
